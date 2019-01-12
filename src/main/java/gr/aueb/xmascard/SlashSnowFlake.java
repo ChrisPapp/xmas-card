@@ -50,7 +50,7 @@ public class SlashSnowFlake extends SnowFlake {
         displayChar = ((coordY % 2) == 0) ? '/' : '\\';
 
         /* Move by 0 to 10 pixels down*/
-        coordY += (int) (Math.random() * 10);
+        coordY += (int) (Math.random() * 2.5);
 
         // Draw it through the superclass
         super.draw(g);

@@ -69,7 +69,7 @@ public abstract class SnowFlake extends Drawable {
         // Go back to the top when hitting the bottom
         if (coordY >= bounds.width + bounds.y)
             coordY = 0;
-
+        
         // Draw the character in white
         g.setColor(white);
         g.drawString((Character.valueOf(displayChar)).toString(),

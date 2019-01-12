@@ -56,17 +56,17 @@ public class PointSnowFlake extends SnowFlake {
         // Move the snowflake left and right
         switch (coordY % 3) {
         case 1:
-            coordX = coordX - 5;
+            coordX = (int) (coordX - 1);
             break;
         case 2:
-            coordX = coordX + 5;
+            coordX = (int) (coordX + 1);
             break;
         default:
             break;
         }
 
         // Move down, based on the weight
-        coordY += (int)(Math.random() * weight);
+        coordY += (int)(Math.random() * weight)/5;
 
         // Draw it through the superclass
         super.draw(g);

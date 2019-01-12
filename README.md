@@ -10,11 +10,26 @@ example to demonstrate the use of diverse Java features.
 * MIDI sound
 * JavaDoc comments
 
+# Turkey Hunt Game
+
+Click on the flying Turkeys to kill them and increase your score!
+Be careful, and don't miss!
+
+## Additions to the original xmas-card
+
+* Add Turkey class that extends Drawable
+* Add a Mouse Listener to DrawPanel, to handle the Turkey Hunting logic
+* Decrease Thread sleeping and reduce spawn rates to achieve higher framerates
+* Add WavPlayer class, to play shotgun.wav
+* Add SoundThread class, so wav sounds can be played without stopping the program
+* Add Score class to handle score counting
+* Remove MidiPlayer class
+
 ## Building
 
-Run `ant`
+Build with Maven
 
 ## Running
 
-Double-click on the generated `build/XmasCard.jar` or run
-`java -jar build/XmasCard.jar`.
+Run
+`java -jar target/xmas-1.0-jar-with-dependencies.jar`.
