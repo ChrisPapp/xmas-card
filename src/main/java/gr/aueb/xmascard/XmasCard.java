@@ -47,7 +47,8 @@ public class XmasCard {
 
     // Create a window and the canvas to draw onto.
     DrawPanel d = new DrawPanel();
-
+    // Start Playing music
+    new MidiPlayer(musicFile);
     // Create randomly-positioned trees.
     for (int i = 0; i < numTrees; i++) {
       Rectangle treeBox = new Rectangle((int) (Math.random() * DrawPanel.WIDTH),
