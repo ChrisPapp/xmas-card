@@ -23,7 +23,6 @@ Be careful, and don't miss!
 * Add WavPlayer class, to play shotgun.wav
 * Add SoundThread class, so wav sounds can be played without stopping the program
 * Add Score class to handle score counting
-* Remove MidiPlayer class
 
 ## Building
 
@@ -32,4 +31,6 @@ Build with Maven
 ## Running
 
 Run
-`java -jar target/xmas-1.0-jar-with-dependencies.jar`.
+`java -jar target/xmas-1.0-jar-with-dependencies.jar`
+or double Click on xmas-1.0-jar-with-dependencies.jar`.
+ 
